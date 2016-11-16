@@ -9,6 +9,7 @@ public class Goddess {
 	private Integer age;
 	private Date birthday;
 	private String email;
+	private String mobile;
 	private String create_user;
 	private String update_user;
 	private Date create_date;
@@ -103,4 +104,14 @@ public class Goddess {
 		this.isdel = isdel;
 	}
 
-}
+	public String getMobile() {
+		return mobile;
+	}
+
+	public void setMobile(String mobile) {
+		this.mobile = mobile;
+	}
+
+	}
+
+

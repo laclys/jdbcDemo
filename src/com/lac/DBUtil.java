@@ -12,7 +12,8 @@ import java.sql.SQLException;
 
 
 public class DBUtil {
-	private static final String URL = "jdbc:mysql://127.0.0.1:3306/dbtest";
+	//加上?useUnicode=true&characterEncoding=utf8 避免中文乱码
+	private static final String URL = "jdbc:mysql://127.0.0.1:3306/dbtest?useUnicode=true&characterEncoding=utf8";
 	private static final String USER = "root";
 	private static final String PASSWORD = "4210";
 	
